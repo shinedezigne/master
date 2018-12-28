@@ -1,0 +1,2 @@
+# master
+Install Zebbix server
