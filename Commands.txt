@@ -1,0 +1,4 @@
+remove files with find command
+
+1)  find /path/to/ -type f -mtime +7 -name '*.gz' -execdir rm -- '{}' \;
+2)  find /path/to/ -type f -mtime +7 -name '*.gz' | xargs rm
